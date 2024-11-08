@@ -14,6 +14,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 0 300px;
+  gap: 10px;
 }
 
 .logo{
@@ -68,6 +69,9 @@ button {
 .hero-right {
   background-color: gray;
   padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .body {
@@ -88,6 +92,7 @@ flex-grow: 1;
 
 .squares {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 
